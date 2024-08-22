@@ -1,0 +1,53 @@
+h1,
+h2 {
+    font-size: 85px;
+    line-height: 1;
+    color: #000000;
+    font-family: $fontHeading;
+
+}
+
+h3 {
+    font-size: 60px;
+    line-height: 1;
+    color: #000000;
+    font-family: $fontHeading;
+
+}
+
+h4 {
+    font-size: 30px;
+    line-height: 1;
+    color: #000000;
+    font-family: $fontHeading;
+
+}
+
+
+h6 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: $fontHeading;
+    color: #000000;
+}
+
+p {
+    font-size: 1.2;
+    color: #000;
+    font-family: $fontMain;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: $fontMain;
+
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
