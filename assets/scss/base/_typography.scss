@@ -4,7 +4,7 @@ h2 {
     line-height: 1;
     color: #000000;
     font-family: $fontHeading;
-
+    letter-spacing: -2px;
 }
 
 h3 {
@@ -12,6 +12,7 @@ h3 {
     line-height: 1;
     color: #000000;
     font-family: $fontHeading;
+    letter-spacing: -2px;
 
 }
 
@@ -20,6 +21,7 @@ h4 {
     line-height: 1;
     color: #000000;
     font-family: $fontHeading;
+    letter-spacing: -2px;
 
 }
 
@@ -30,6 +32,8 @@ h6 {
     line-height: 24px;
     font-family: $fontHeading;
     color: #000000;
+    letter-spacing: -2px;
+
 }
 
 p {
