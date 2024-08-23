@@ -3,3 +3,239 @@
         max-width: 1210px;
      }
 }
+
+@media(max-width:1200px){
+   .heading {
+      font-size: 30px;
+   }
+   
+   
+
+   header .navbar .nav-item .nav-link{
+      padding-inline: 8px;
+      font-size: 18px;
+   }
+   
+
+
+
+
+
+   .banner-content-box{
+      padding: 35px 35px 35px 23px;
+   }
+   .banner-content-box h2{
+      font-size: 30px;
+   }
+   .banner-content-box p{
+      font-size: 18px;
+   }
+
+
+
+
+   .our-services h2{
+      font-size: 30px;
+
+   }
+   .our-services p{
+      font-size: 20px;
+   }
+   .our-services-item{
+      padding: 0;
+   }
+
+
+
+
+   .cta-content{
+      padding: 30px;
+   }
+   .cta-content p {
+      font-size: 20px;
+   }
+   .cta-content a {
+      font-size: 16px;
+      padding: 15px 20px;
+   }
+
+   .implement-card a {
+      font-size: 20px;
+   }
+   .implement-card p{
+      font-size: 18px;
+      line-height: 20px;
+   }
+
+
+
+   .contact-card{
+      padding: 20px;
+   }
+   .contact-card h4 {
+      font-size: 30px;
+   }
+   .contact-card p{
+      font-size: 20px;
+   }
+
+
+
+
+   .solution-slider .solution-card a{
+      font-size: 25px;
+   }
+   .solution-slider .solution-card ul li span{
+      font-size: 20px;
+   }
+}
+
+
+@media(max-width:992px){
+   .navbar-collapse {
+      z-index: 999;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 89px;
+   }
+   header .navbar .nav-item .nav-link,
+   header .navbar .nav-cta {
+      padding-left: 130px;
+   }
+
+
+
+   .banner-content-box {
+      max-width: 75%;
+   }
+   .banner-content{
+      transform: translateY(-97%);
+   }
+   .banner-content-box h2{
+      font-size: 40px;
+   }
+   .banner-content-box p{
+      font-size: 20px;
+   }
+ 
+   
+
+   .our-services p {
+      margin-bottom: 40px;
+   }
+   
+
+
+   .contact-card{
+      width: 60%;
+   }
+
+   .btn li.prev {
+      left: -33px;
+   }
+
+
+
+   footer a {
+      padding: 3px 19px;
+   }
+   footer p{
+      line-height: normal;
+   }
+   .copyright  p,
+   .copyright a{
+      font-size: 15px;
+   }
+}
+
+
+
+@media(max-width:768px){
+   header .navbar .nav-item .nav-link,
+   header .navbar .nav-cta {
+      padding-left: 40px;
+   }
+   .banner-content-box {
+      max-width: 100%;
+  }
+  .cta{
+   display: block;
+  }
+  .cta-img{
+   max-width: 100%;
+  }
+  .cta-content{
+   margin-top: 0;
+   max-width: 100%;
+   margin: 0;
+  }
+  .paragraph{
+   max-width: 100%;
+  }
+  .call-to-action .content p{
+   max-width: 100%;
+  }
+  footer a{
+   display: block;
+    text-align: center;
+    margin-block: 20px;
+ padding-block: 12px;
+   }
+   footer span{
+      font-size: 18px;
+      text-align: center;
+      
+   }
+   .copyright p, .copyright a{
+      text-align: center;
+   }
+
+}
+
+@media(max-width:576px){
+   header .navbar {
+      padding-block: 10px;
+   }
+   .banner-content {
+      transform: translateY(-72%);
+  }
+  .banner-content-box h2 {
+   font-size: 28px;
+ line-height: 1.2;
+ text-align: center;
+}
+
+.btn li.next{
+top: calc(32% - 20px);
+    right: -17px;
+z-index: 999
+
+}
+.btn li.prev{
+left: -9px;
+top: calc(32% - 20px);
+z-index: 999
+}
+.listing-name h5{
+   font-size: 16px;
+}
+.listing-name .price {
+   font-size: 12px;
+}
+.listing-prop-item i{
+   font-size: 20px;
+}
+.contact-card {
+   width: 100%;
+}
+.solution .slick-list {
+   margin-bottom: 30px;
+}
+.slick-dots li {
+   width: 8px;
+}
+.navbar-collapse {
+   top: 79px;
+}
+}
