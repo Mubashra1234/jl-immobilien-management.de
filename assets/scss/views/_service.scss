@@ -1,0 +1,48 @@
+.service{
+    padding-block: 150px;
+    .flex-row-reverse{
+        img{
+            margin-right: 48px;
+            margin-left: 0;
+        }
+    }
+    &-img{
+        div{
+            background: #C6AC80;
+            width: 100%;
+            height: 100px;
+        
+        }
+        img{
+            margin-left: 48px;
+            margin-bottom: -42px;
+          
+        }
+    }
+    &-content{
+        margin-left: 70px;
+        span{
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #C6AC80;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-size: 36px;
+            font-weight: 700;
+            color: #00233D;
+            margin-bottom: 20px;
+            max-width: 80%;
+        }
+        p{
+            font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #00233D;
+    max-width: 80%;
+        }
+       
+        
+    }
+}

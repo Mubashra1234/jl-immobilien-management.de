@@ -3,7 +3,11 @@
         max-width: 1210px;
      }
 }
-
+@media(max-width:1400px){
+   .team-footer a {
+      padding-inline: 0;
+   }
+}
 @media(max-width:1200px){
    .heading {
       font-size: 30px;
@@ -88,10 +92,16 @@
    .solution-slider .solution-card ul li span{
       font-size: 20px;
    }
+   .solution .paragraph{
+      max-width: 100%;
+   }
+   .solution-card ul li span {
+      font-size: 20px;
+  }
 }
 
 
-@media(max-width:992px){
+@media(max-width:991px){
    .navbar-collapse {
       z-index: 999;
       position: absolute;
@@ -118,8 +128,34 @@
    .banner-content-box p{
       font-size: 20px;
    }
- 
-   
+   .real-estate p {
+      font-size: 18px
+   }
+
+
+
+   .real-estate #projectFacts .counter p, .real-estate #projectFacts .counter b {
+      font-size: 35px;
+   }
+
+   .value-item-header img{
+      max-width: 6%;
+   }
+   .team-footer a{
+      padding-inline: 0;
+      font-size: 17px;
+   }
+   .service-banner video{
+   transform: translateY(-31px);
+   }
+   .service-banner    .banner-content {
+      transform: translateY(-58%);
+  }
+  .values .value-item p{
+   padding-left: 0;
+   font-size: 20px;
+  }
+
 
    .our-services p {
       margin-bottom: 40px;
@@ -147,6 +183,22 @@
    .copyright a{
       font-size: 15px;
    }
+
+
+   .service-content {
+      margin-left: 41px;
+  }
+  .service-content span {
+   font-size: 20px;
+  }
+  .service-content h2 {
+   max-width: 100%;
+   font-size: 32px;
+  }
+  .service-content p {
+   font-size: 22px;
+   max-width: 100%;
+  }
 }
 
 
@@ -191,6 +243,31 @@
       text-align: center;
    }
 
+
+
+
+   .service-banner video {
+      transform: translateY(6px);
+  }
+  .team-footer a{
+   font-size: 20px;
+   padding-inline: 15px;
+
+  }
+.team-item{
+   margin-bottom: 30px
+}
+.service-img img {
+   margin-left: 21px;
+}
+.service .flex-row-reverse img {
+   margin-right: 0;
+   margin-left: 21px;
+}
+.service-content {
+   margin-left: 0px;
+   margin-top: 20px;
+}
 }
 
 @media(max-width:576px){
@@ -237,5 +314,57 @@ z-index: 999
 }
 .navbar-collapse {
    top: 79px;
+}
+
+
+
+
+
+
+
+
+.service-banner .banner-content-box h1 {
+   font-size: 25px;
+}
+.real-estate{
+   padding-block: 50px;
+}
+
+
+
+
+
+
+
+.service{
+   padding-block: 80px;
+}
+
+
+
+.solution .paragraph{
+   font-size: 16px;
+}
+.solution .solution-card a{
+   font-size: 25px;
+}
+.solution-card ul li span{
+   font-size: 16px;
+}
+.solution-content h1{
+   font-size: 23px;
+}
+.solution-content p {
+   font-size: 16px;
+   line-height: 18px;
+}
+.impressum p{
+   font-size: 15px;
+   line-height: normal;
+}
+
+
+.datenschutz p, .datenschutz li{
+   font-size: 16px;
 }
 }
