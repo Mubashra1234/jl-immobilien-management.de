@@ -449,7 +449,7 @@ display: flex;
     width: 100%;
     line-height: 0;
     direction: ltr;
-    z-index: 9999;
+    z-index: 1;
 svg{
     display: block;
     width: calc(100% + 1.3px);
@@ -461,7 +461,7 @@ svg{
   } 
   }
   .content{
-    z-index: 9999;
+    z-index: 1;
     position: relative;
     text-align: center;
   p{
@@ -566,6 +566,25 @@ footer {
     color: #0a0a0a;
     padding-inline: 10px;
   }
+
+
+.back-to-top{
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0;
+    position: fixed;
+    bottom: 34px;
+    right: 20px;
+    background-color: #692a2a;
+    border-radius: 4px;
+    i{
+      width: 20px;
+      height: 20px;
+      color: #fff;
+    }
+  }
+
 }
 
 

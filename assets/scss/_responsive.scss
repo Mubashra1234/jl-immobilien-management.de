@@ -98,6 +98,18 @@
    .solution-card ul li span {
       font-size: 20px;
   }
+  .gallery .gallery-images {
+   gap: 10px;
+  }
+  .gallery h1 {
+   font-size: 25px;
+  }
+  .gallery p{
+   font-size: 20px;
+  }
+  .gallery {
+   padding-block: 70px;
+}
 }
 
 
@@ -108,6 +120,8 @@
       width: 100%;
       left: 0;
       top: 89px;
+      background-color: #f8f8f8;
+
    }
    header .navbar .nav-item .nav-link,
    header .navbar .nav-cta {
@@ -199,11 +213,52 @@
    font-size: 22px;
    max-width: 100%;
   }
+
+
+
+
+
+  .product-detail .product-heading h1 {
+   font-size: 25px;
+  }
+  .product-detail .breadcrumb-icon {
+   padding-bottom: 7px;
+}
+.product-detail .product-heading p{
+   font-size: 25px;
+}
+.product-detail .product-button{
+   margin-top: 0;
+}
+.product-content{
+   display:none;
+}
+.product-detail .product-banner .product-img img {
+   min-height: 398px;
+}
+.product-detail .about-product strong {
+   font-size: 16px;
+
+}
+.video iframe{
+   width: 617px;
+   height: 346px;
+
+}
+.product-detail .form{
+   margin-top: 40px;
+}
+.comercial-sale .feature{
+   margin-top: 10px;
+}
 }
 
 
 
 @media(max-width:768px){
+   .product-detail .about-product .description, .adress , .overview , .detail,.floor-plans , .video, .contact-inormation , .review{
+      padding: 30px ;
+   }
    header .navbar .nav-item .nav-link,
    header .navbar .nav-cta {
       padding-left: 40px;
@@ -268,6 +323,34 @@
    margin-left: 0px;
    margin-top: 20px;
 }
+
+
+.product-detail .about-product p {
+   font-size: 18px;
+}
+.product-detail .about-product li{
+   font-size: 18px;
+}
+
+.product-detail .form .form-group-btn a{
+   padding: 10px 20px;
+}
+.breadcrumb-wrap{
+   margin-top: 30px;
+}
+
+
+.contact-info-item{
+   text-align: center;
+   margin-block: 10px;
+}
+
+
+.gallery .gallery-images {
+   grid-template-columns: auto auto;
+}
+
+
 }
 
 @media(max-width:576px){
@@ -314,6 +397,7 @@ z-index: 999
 }
 .navbar-collapse {
    top: 79px;
+   
 }
 
 
@@ -367,4 +451,74 @@ z-index: 999
 .datenschutz p, .datenschutz li{
    font-size: 16px;
 }
+
+
+
+.product-detail .product-banner .product-img img {
+   min-height: 263px;
+}
+.breadcrumb{
+   display: none;
+margin-bottom: 20px;
+}
+.product-detail .product-heading h1 {
+   font-size: 19px;
+}
+.product-detail .product-heading h1 {
+   font-size: 19px;
+}
+.product-detail .product-button {
+   margin-bottom: 40px;
+}
+.product-detail .about-product p {
+   font-size: 16px;
+}
+.product-detail .about-product .description, .adress , .overview , .detail,.floor-plans , .video, .contact-inormation , .review{
+   padding: 10px !important
+}
+.video iframe {
+   width: 258px;
+   height: 266px;
+}
+.product-detail .about-product .rezension h2 {
+   font-size: 16px;
+}
+.product-detail .about-product .rezension{
+   display: block !important;
+}
+.product-detail .form{
+   padding: 10px;
+}
+.product-detail .about-product ul {
+   padding-left: 20px;
+}
+.comercial-sale .commercial-head strong {
+   font-size: 16px;
+}
+.comercial-sale .commercial-head select {
+   font-size: 16px;
+}
+.comercial-sale .commercial-head p{
+   font-size: 16px;
+   margin-bottom: 0;
+}
+
+
+.gallery .gallery-images {
+   grid-template-columns: auto ;
+}
+.gallery h1 {
+   max-width: 100%;
+text-align: center;
+}
+.gallery p{
+   text-align: center;
+}
+}
+
+
+
+
+@media (min-width: 768px) {
+   .col-lg-1-5 { width: 20%; }
 }

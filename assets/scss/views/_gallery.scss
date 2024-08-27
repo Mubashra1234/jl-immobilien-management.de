@@ -1,0 +1,45 @@
+.gallery{
+  padding-block: 100px;
+  h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+    color: #00233D;
+    max-width: 74%;
+
+
+  }
+  p{
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+    color: #00233D;
+    
+  }
+.gallery-images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-top: 55px;
+
+
+     .gallery-img {
+
+    border-radius: 5px;
+    margin: 0 12px;
+    a{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      background: #fff;
+      justify-content: center;
+  
+    }
+  }
+
+}
+}

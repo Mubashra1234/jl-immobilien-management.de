@@ -33,33 +33,33 @@ $(".review-slider").slick({
 
 
 
-$.fn.jQuerySimpleCounter = function( options ) {
+$.fn.jQuerySimpleCounter = function (options) {
   var settings = $.extend({
-      start:  0,
-      end:    100,
-      easing: 'swing',
-      duration: 400,
-      complete: ''
-  }, options );
+    start: 0,
+    end: 100,
+    easing: 'swing',
+    duration: 400,
+    complete: ''
+  }, options);
 
   var thisElement = $(this);
 
-  $({count: settings.start}).animate({count: settings.end}, {
-  duration: settings.duration,
-  easing: settings.easing,
-  step: function() {
-    var mathCount = Math.ceil(this.count);
-    thisElement.text(mathCount);
-  },
-  complete: settings.complete
-});
+  $({ count: settings.start }).animate({ count: settings.end }, {
+    duration: settings.duration,
+    easing: settings.easing,
+    step: function () {
+      var mathCount = Math.ceil(this.count);
+      thisElement.text(mathCount);
+    },
+    complete: settings.complete
+  });
 };
 
 
-$('#number1').jQuerySimpleCounter({end: 250,duration: 3000});
-$('#number2').jQuerySimpleCounter({end: 150,duration: 3000});
-$('#number3').jQuerySimpleCounter({end: 100,duration: 2000});
-$('#number4').jQuerySimpleCounter({end: 30,duration: 2500});
+$('#number1').jQuerySimpleCounter({ end: 250, duration: 3000 });
+$('#number2').jQuerySimpleCounter({ end: 150, duration: 3000 });
+$('#number3').jQuerySimpleCounter({ end: 100, duration: 2000 });
+$('#number4').jQuerySimpleCounter({ end: 30, duration: 2500 });
 
 
 
@@ -85,7 +85,7 @@ $(".listing-carousal").slick({
   autoplay: true,
   autoplaySpeed: 2000,
   arrows: false,
-  dots : true,
+  dots: true,
 
 });
 $(".solution-slider").slick({
@@ -146,4 +146,23 @@ $(".partner-slider").slick({
       }
     }
   ]
+});
+
+
+
+
+
+$('.gallery-images').magnificPopup({
+  delegate: '.gallery-img a',
+  type: 'image',
+  fixedContentPos: true,
+  closeOnBgClick: true,
+  alignTop: false,
+  tLoading: 'Loading image #%curr%...',
+  mainClass: 'mfp-img-mobile',
+  gallery: {
+    enabled: true,
+    navigateByImgClick: true,
+    preload: [0, 1]
+  }
 });
