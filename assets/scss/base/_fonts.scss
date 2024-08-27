@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Muli';
-    src: url('/assets/fonts/Muli-Bold.woff2') format('woff2'),
-        url('/assets/fonts/Muli-Bold.woff') format('woff');
+    src: url('../fonts/Muli-Bold.woff2') format('woff2'),
+        url('../fonts/Muli-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Muli';
-    src: url('/assets/fonts/Muli.woff2') format('woff2'),
-        url('/assets/fonts/Muli.woff') format('woff');
+    src: url('../fonts/Muli.woff2') format('woff2'),
+        url('../fonts/Muli.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'Muli';
-    src: url('/assets/fonts/Muli-Light.woff2') format('woff2'),
-        url('/assets/fonts/Muli-Light.woff') format('woff');
+    src: url('../fonts/Muli-Light.woff2') format('woff2'),
+        url('../fonts/Muli-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -27,8 +27,8 @@
 
 @font-face {
     font-family: 'Muli';
-    src: url('/assets/fonts/Muli-BoldItalic.woff2') format('woff2'),
-        url('/assets/fonts/Muli-BoldItalic.woff') format('woff');
+    src: url('../fonts/Muli-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Muli-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -36,8 +36,8 @@
 
 @font-face {
     font-family: 'Muli';
-    src: url('/assets/fonts/Muli-ExtraLightItalic.woff2') format('woff2'),
-        url('/assets/fonts/Muli-ExtraLightItalic.woff') format('woff');
+    src: url('../fonts/Muli-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Muli-ExtraLightItalic.woff') format('woff');
     font-weight: 200;
     font-style: italic;
     font-display: swap;
@@ -45,8 +45,8 @@
 
 @font-face {
     font-family: 'Muli';
-    src: url('/assets/fonts/Muli-Italic.woff2') format('woff2'),
-        url('/assets/fonts/Muli-Italic.woff') format('woff');
+    src: url('../fonts/Muli-Italic.woff2') format('woff2'),
+        url('../fonts/Muli-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -54,8 +54,8 @@
 
 @font-face {
     font-family: 'Muli';
-    src: url('/assets/fonts/Muli-ExtraLight.woff2') format('woff2'),
-        url('/assets/fonts/Muli-ExtraLight.woff') format('woff');
+    src: url('../fonts/Muli-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Muli-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -63,8 +63,8 @@
 
 @font-face {
     font-family: 'Muli';
-    src: url('/assets/fonts/Muli-SemiBold.woff2') format('woff2'),
-        url('/assets/fonts/Muli-SemiBold.woff') format('woff');
+    src: url('../fonts/Muli-SemiBold.woff2') format('woff2'),
+        url('../fonts/Muli-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -72,8 +72,8 @@
 
 @font-face {
     font-family: 'Muli';
-    src: url('/assets/fonts/Muli-LightItalic.woff2') format('woff2'),
-        url('/assets/fonts/Muli-LightItalic.woff') format('woff');
+    src: url('../fonts/Muli-LightItalic.woff2') format('woff2'),
+        url('../fonts/Muli-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -81,8 +81,8 @@
 
 @font-face {
     font-family: 'Muli';
-    src: url('/assets/fonts/Muli-Semi-BoldItalic.woff2') format('woff2'),
-        url('/assets/fonts/Muli-Semi-BoldItalic.woff') format('woff');
+    src: url('../fonts/Muli-Semi-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Muli-Semi-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -92,8 +92,8 @@
 
 @font-face {
     font-family: 'Darker Grotesque';
-    src: url('/assets/fonts/DarkerGrotesque-Black.woff2') format('woff2'),
-        url('/assets/fonts/DarkerGrotesque-Black.woff') format('woff');
+    src: url('../fonts/DarkerGrotesque-Black.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -101,8 +101,8 @@
 
 @font-face {
     font-family: 'Darker Grotesque';
-    src: url('/assets/fonts/DarkerGrotesque-ExtraBold.woff2') format('woff2'),
-        url('/assets/fonts/DarkerGrotesque-ExtraBold.woff') format('woff');
+    src: url('../fonts/DarkerGrotesque-ExtraBold.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -110,8 +110,8 @@
 
 @font-face {
     font-family: 'Darker Grotesque';
-    src: url('/assets/fonts/DarkerGrotesque-Medium.woff2') format('woff2'),
-        url('/assets/fonts/DarkerGrotesque-Medium.woff') format('woff');
+    src: url('../fonts/DarkerGrotesque-Medium.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -119,8 +119,8 @@
 
 @font-face {
     font-family: 'Darker Grotesque';
-    src: url('/assets/fonts/DarkerGrotesque-Light.woff2') format('woff2'),
-        url('/assets/fonts/DarkerGrotesque-Light.woff') format('woff');
+    src: url('../fonts/DarkerGrotesque-Light.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -128,8 +128,8 @@
 
 @font-face {
     font-family: 'Darker Grotesque';
-    src: url('/assets/fonts/DarkerGrotesque-SemiBold.woff2') format('woff2'),
-        url('/assets/fonts/DarkerGrotesque-SemiBold.woff') format('woff');
+    src: url('../fonts/DarkerGrotesque-SemiBold.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -137,8 +137,8 @@
 
 @font-face {
     font-family: 'Darker Grotesque';
-    src: url('/assets/fonts/DarkerGrotesque-Bold.woff2') format('woff2'),
-        url('/assets/fonts/DarkerGrotesque-Bold.woff') format('woff');
+    src: url('../fonts/DarkerGrotesque-Bold.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -146,16 +146,16 @@
 
 @font-face {
     font-family: 'Darker Grotesque';
-    src: url('/assets/fonts/DarkerGrotesque-Regular.woff2') format('woff2'),
-        url('/assets/fonts/DarkerGrotesque-Regular.woff') format('woff');
+    src: url('../fonts/DarkerGrotesque-Regular.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Roboto';
-    src: url('/assets/fonts/Roboto-Regular.woff') format('woff2'),
-        url('/assets/fonts/Roboto-Regular.woff') format('woff');
+    src: url('../fonts/Roboto-Regular.woff') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
